@@ -1,0 +1,1608 @@
+Sentence #1 (22 tokens):
+中国篮球协会在北京市通州区张家湾镇中心小学举行了小篮球发展计划暨小篮球联赛启动仪式。
+[Text=中国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=篮球 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=协会 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN]
+[Text=在 CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=P]
+[Text=北京市 CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=NR]
+[Text=通州区 CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NR]
+[Text=张家湾镇 CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NR]
+[Text=中心 CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=NN]
+[Text=小学 CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=NN]
+[Text=举行 CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=VV]
+[Text=了 CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=AS]
+[Text=小篮 CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=NN]
+[Text=球 CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=NN]
+[Text=发展 CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=NN]
+[Text=计划 CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=NN]
+[Text=暨 CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=CC]
+[Text=小 CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=JJ]
+[Text=篮球 CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=NN]
+[Text=联赛 CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=NN]
+[Text=启动 CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=NN]
+[Text=仪式 CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NR 中国))
+      (NP (NN 篮球) (NN 协会)))
+    (VP
+      (PP (P 在)
+        (NP
+          (NP
+            (NP (NR 北京市))
+            (NP (NR 通州区))
+            (NP (NR 张家湾镇))
+            (NP (NN 中心)))
+          (NP (NN 小学))))
+      (VP (VV 举行) (AS 了)
+        (NP
+          (NP
+            (NP (NN 小篮) (NN 球) (NN 发展))
+            (NP (NN 计划)))
+          (CC 暨)
+          (NP
+            (NP
+              (NP
+                (ADJP (JJ 小))
+                (NP (NN 篮球)))
+              (NP (NN 联赛) (NN 启动)))
+            (NP (NN 仪式))))))
+    (PU 。)))
+
+root(ROOT-0, 举行-10)
+nmod:assmod(协会-3, 中国-1)
+compound:nn(协会-3, 篮球-2)
+nsubj(举行-10, 协会-3)
+case(小学-9, 在-4)
+compound:nn(中心-8, 北京市-5)
+compound:nn(中心-8, 通州区-6)
+dep(中心-8, 张家湾镇-7)
+compound:nn(小学-9, 中心-8)
+nmod:prep(举行-10, 小学-9)
+aux:asp(举行-10, 了-11)
+compound:nn(发展-14, 小篮-12)
+compound:nn(发展-14, 球-13)
+compound:nn(计划-15, 发展-14)
+conj(仪式-21, 计划-15)
+cc(仪式-21, 暨-16)
+amod(篮球-18, 小-17)
+compound:nn(启动-20, 篮球-18)
+compound:nn(启动-20, 联赛-19)
+compound:nn(仪式-21, 启动-20)
+dobj(举行-10, 仪式-21)
+punct(举行-10, 。-22)
+
+Sentence #1 (14 tokens):
+小篮球规则适用对象为12岁及以下的少年儿童。
+[Text=小篮 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NN]
+[Text=球 CharacterOffsetBegin=2 CharacterOffsetEnd=3 PartOfSpeech=NN]
+[Text=规则 CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=NN]
+[Text=适用 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=VV]
+[Text=对象 CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=NN]
+[Text=为 CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=VC]
+[Text=12 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=CD]
+[Text=岁 CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=M]
+[Text=及 CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=CC]
+[Text=以下 CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=PN]
+[Text=的 CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=DEG]
+[Text=少年 CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=NN]
+[Text=儿童 CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (CP
+        (IP
+          (NP (NN 小篮) (NN 球) (NN 规则))
+          (VP (VV 适用))))
+      (NP (NN 对象)))
+    (VP (VC 为)
+      (NP
+        (QP (CD 12)
+          (CLP (M 岁)))
+        (CC 及)
+        (NP
+          (DNP
+            (NP (PN 以下))
+            (DEG 的))
+          (NP (NN 少年) (NN 儿童)))))
+    (PU 。)))
+
+root(ROOT-0, 儿童-13)
+compound:nn(规则-3, 小篮-1)
+compound:nn(规则-3, 球-2)
+nsubj(适用-4, 规则-3)
+acl(对象-5, 适用-4)
+nsubj(儿童-13, 对象-5)
+cop(儿童-13, 为-6)
+conj(儿童-13, 12-7)
+nummod(儿童-13, 12-7)
+mark:clf(12-7, 岁-8)
+cc(儿童-13, 及-9)
+nmod:assmod(儿童-13, 以下-10)
+case(以下-10, 的-11)
+compound:nn(儿童-13, 少年-12)
+punct(儿童-13, 。-14)
+
+Sentence #1 (10 tokens):
+最终获奖的运动员将在12月20日揭晓。
+[Text=最终 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=AD]
+[Text=获奖 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=VV]
+[Text=的 CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DEC]
+[Text=运动员 CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=将 CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=AD]
+[Text=在 CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=P]
+[Text=12月 CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NT]
+[Text=20日 CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=NT]
+[Text=揭晓 CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=VV]
+[Text=。 CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (CP
+        (IP
+          (VP
+            (ADVP (AD 最终))
+            (VP (VV 获奖))))
+        (DEC 的))
+      (NP (NN 运动员)))
+    (VP
+      (ADVP (AD 将))
+      (PP (P 在)
+        (NP (NT 12月) (NT 20日)))
+      (VP (VV 揭晓)))
+    (PU 。)))
+
+root(ROOT-0, 揭晓-9)
+advmod(获奖-2, 最终-1)
+acl(运动员-4, 获奖-2)
+mark(获奖-2, 的-3)
+nsubj(揭晓-9, 运动员-4)
+advmod(揭晓-9, 将-5)
+case(20日-8, 在-6)
+compound:nn(20日-8, 12月-7)
+nmod:prep(揭晓-9, 20日-8)
+punct(揭晓-9, 。-10)
+
+Sentence #1 (7 tokens):
+延庆赛区开始公开招募合作者。
+[Text=延庆 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=赛区 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=开始 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=VV]
+[Text=公开 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=AD]
+[Text=招募 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=VV]
+[Text=合作者 CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NR 延庆))
+      (NP (NN 赛区)))
+    (VP (VV 开始)
+      (VP
+        (ADVP (AD 公开))
+        (VP (VV 招募)
+          (NP (NN 合作者)))))
+    (PU 。)))
+
+root(ROOT-0, 招募-5)
+nmod:assmod(赛区-2, 延庆-1)
+nsubj(招募-5, 赛区-2)
+xcomp(招募-5, 开始-3)
+advmod(招募-5, 公开-4)
+dobj(招募-5, 合作者-6)
+punct(招募-5, 。-7)
+
+Sentence #1 (10 tokens):
+这是该项赛事首次走出校门。
+[Text=这 CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=PN]
+[Text=是 CharacterOffsetBegin=1 CharacterOffsetEnd=2 PartOfSpeech=VC]
+[Text=该 CharacterOffsetBegin=2 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=项 CharacterOffsetBegin=3 CharacterOffsetEnd=4 PartOfSpeech=M]
+[Text=赛事 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN]
+[Text=首 CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=OD]
+[Text=次 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=M]
+[Text=走出 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=VV]
+[Text=校门 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (PN 这))
+    (VP (VC 是)
+      (IP
+        (NP
+          (DP (DT 该)
+            (CLP (M 项)))
+          (NP (NN 赛事)))
+        (VP
+          (QP (OD 首)
+            (CLP (M 次)))
+          (VP (VV 走出)
+            (NP (NN 校门))))))
+    (PU 。)))
+
+root(ROOT-0, 走出-8)
+nsubj(走出-8, 这-1)
+cop(走出-8, 是-2)
+det(赛事-5, 该-3)
+mark:clf(该-3, 项-4)
+nsubj(走出-8, 赛事-5)
+dep(走出-8, 首-6)
+mark:clf(首-6, 次-7)
+dobj(走出-8, 校门-9)
+punct(走出-8, 。-10)
+
+Sentence #1 (12 tokens):
+2017年全国大学生游泳锦标赛19日在江西省赣州市拉开帷幕。
+[Text=2017年 CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NT]
+[Text=全国 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=NN]
+[Text=大学生 CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=NN]
+[Text=游泳 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=NN]
+[Text=锦标赛 CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=NN]
+[Text=19日 CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=NT]
+[Text=在 CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=P]
+[Text=江西省 CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=NR]
+[Text=赣州市 CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=NR]
+[Text=拉开 CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=VV]
+[Text=帷幕 CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NT 2017年))
+    (NP (NN 全国) (NN 大学生) (NN 游泳) (NN 锦标赛))
+    (VP
+      (NP (NT 19日))
+      (PP (P 在)
+        (NP (NR 江西省) (NR 赣州市)))
+      (VP (VV 拉开)
+        (NP (NN 帷幕))))
+    (PU 。)))
+
+root(ROOT-0, 拉开-10)
+nmod:tmod(拉开-10, 2017年-1)
+compound:nn(锦标赛-5, 全国-2)
+compound:nn(锦标赛-5, 大学生-3)
+compound:nn(锦标赛-5, 游泳-4)
+nsubj(拉开-10, 锦标赛-5)
+nmod:tmod(拉开-10, 19日-6)
+case(赣州市-9, 在-7)
+name(赣州市-9, 江西省-8)
+nmod:prep(拉开-10, 赣州市-9)
+dobj(拉开-10, 帷幕-11)
+punct(拉开-10, 。-12)
+
+Sentence #1 (9 tokens):
+大洋彼岸的美国零售业正遭遇寒冬。
+[Text=大洋 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NN]
+[Text=彼岸 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=的 CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DEG]
+[Text=美国 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=NR]
+[Text=零售业 CharacterOffsetBegin=7 CharacterOffsetEnd=10 PartOfSpeech=NN]
+[Text=正 CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=AD]
+[Text=遭遇 CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VV]
+[Text=寒冬 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (DNP
+        (NP (NN 大洋) (NN 彼岸))
+        (DEG 的))
+      (NP (NR 美国))
+      (NP (NN 零售业)))
+    (VP
+      (ADVP (AD 正))
+      (VP (VV 遭遇)
+        (NP (NN 寒冬))))
+    (PU 。)))
+
+root(ROOT-0, 遭遇-7)
+compound:nn(彼岸-2, 大洋-1)
+nmod:assmod(零售业-5, 彼岸-2)
+case(彼岸-2, 的-3)
+nmod:assmod(零售业-5, 美国-4)
+nsubj(遭遇-7, 零售业-5)
+advmod(遭遇-7, 正-6)
+dobj(遭遇-7, 寒冬-8)
+punct(遭遇-7, 。-9)
+
+Sentence #1 (11 tokens):
+麦菲特斯带记者参观Stadium Goods纽约店的地下仓库。
+[Text=麦菲特斯带 CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NR]
+[Text=记者 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=NN]
+[Text=参观 CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=VV]
+[Text=Stadium CharacterOffsetBegin=9 CharacterOffsetEnd=16 PartOfSpeech=NR]
+[Text=Goods CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NR]
+[Text=纽约 CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=NR]
+[Text=店 CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=NN]
+[Text=的 CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=DEG]
+[Text=地下 CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=JJ]
+[Text=仓库 CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NR 麦菲特斯带))
+      (NP (NN 记者)))
+    (VP (VV 参观)
+      (NP
+        (DNP
+          (NP
+            (NP (NR Stadium) (NR Goods) (NR 纽约))
+            (NP (NN 店)))
+          (DEG 的))
+        (ADJP (JJ 地下))
+        (NP (NN 仓库))))
+    (PU 。)))
+
+root(ROOT-0, 参观-3)
+nmod:assmod(记者-2, 麦菲特斯带-1)
+nsubj(参观-3, 记者-2)
+name(纽约-6, Stadium-4)
+name(纽约-6, Goods-5)
+nmod:assmod(店-7, 纽约-6)
+nmod:assmod(仓库-10, 店-7)
+case(店-7, 的-8)
+amod(仓库-10, 地下-9)
+dobj(参观-3, 仓库-10)
+punct(参观-3, 。-11)
+
+Sentence #1 (8 tokens):
+伊冯娜·叶不再随身带太多东西。
+[Text=伊 CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=NR]
+[Text=冯娜·叶不再 CharacterOffsetBegin=1 CharacterOffsetEnd=7 PartOfSpeech=NR]
+[Text=随身 CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=AD]
+[Text=带 CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=VV]
+[Text=太 CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=AD]
+[Text=多 CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=CD]
+[Text=东西 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NR 伊) (NR 冯娜·叶不再))
+    (VP
+      (ADVP (AD 随身))
+      (VP (VV 带)
+        (NP
+          (QP
+            (ADVP (AD 太))
+            (QP (CD 多)))
+          (NP (NN 东西)))))
+    (PU 。)))
+
+root(ROOT-0, 带-4)
+name(冯娜·叶不再-2, 伊-1)
+nsubj(带-4, 冯娜·叶不再-2)
+advmod(带-4, 随身-3)
+advmod(多-6, 太-5)
+dep(东西-7, 多-6)
+dobj(带-4, 东西-7)
+punct(带-4, 。-8)
+
+Sentence #1 (16 tokens):
+“新零售”为国际商业和服务业打造了便捷化的双向通道。
+[Text=“ CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=PU]
+[Text=新 CharacterOffsetBegin=1 CharacterOffsetEnd=2 PartOfSpeech=JJ]
+[Text=零售 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=” CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=PU]
+[Text=为 CharacterOffsetBegin=5 CharacterOffsetEnd=6 PartOfSpeech=VV]
+[Text=国际 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=商业 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=NN]
+[Text=和 CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=CC]
+[Text=服务业 CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=打造 CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=VV]
+[Text=了 CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=AS]
+[Text=便捷化 CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=NN]
+[Text=的 CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=DEG]
+[Text=双向 CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=JJ]
+[Text=通道 CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (PU “)
+      (ADJP (JJ 新))
+      (NP (NN 零售))
+      (PU ”))
+    (VP
+      (VP (VV 为)
+        (NP (NN 国际) (NN 商业)
+          (CC 和)
+          (NN 服务业)))
+      (VP (VV 打造) (AS 了)
+        (NP
+          (DNP
+            (NP (NN 便捷化))
+            (DEG 的))
+          (ADJP (JJ 双向))
+          (NP (NN 通道)))))
+    (PU 。)))
+
+root(ROOT-0, 为-5)
+punct(零售-3, “-1)
+amod(零售-3, 新-2)
+nsubj(为-5, 零售-3)
+punct(零售-3, ”-4)
+compound:nn(服务业-9, 国际-6)
+conj(服务业-9, 商业-7)
+cc(服务业-9, 和-8)
+dobj(为-5, 服务业-9)
+conj(为-5, 打造-10)
+aux:asp(打造-10, 了-11)
+nmod:assmod(通道-15, 便捷化-12)
+case(便捷化-12, 的-13)
+amod(通道-15, 双向-14)
+dobj(打造-10, 通道-15)
+punct(为-5, 。-16)
+
+Sentence #1 (14 tokens):
+去年耐克在曼哈顿的潮流聚集地苏荷区开了一家新店。
+[Text=去年 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NT]
+[Text=耐克 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NR]
+[Text=在 CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=P]
+[Text=曼哈顿 CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=NR]
+[Text=的 CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=DEG]
+[Text=潮流 CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=NN]
+[Text=聚集地 CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=苏荷区 CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NR]
+[Text=开 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=VV]
+[Text=了 CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=AS]
+[Text=一 CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=CD]
+[Text=家 CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=M]
+[Text=新店 CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NT 去年))
+    (NP (NR 耐克))
+    (VP
+      (PP (P 在)
+        (NP
+          (NP
+            (DNP
+              (NP (NR 曼哈顿))
+              (DEG 的))
+            (NP (NN 潮流) (NN 聚集地)))
+          (NP (NR 苏荷区))))
+      (VP (VV 开) (AS 了)
+        (NP
+          (QP (CD 一)
+            (CLP (M 家)))
+          (NP (NN 新店)))))
+    (PU 。)))
+
+root(ROOT-0, 开-9)
+nmod:tmod(开-9, 去年-1)
+nsubj(开-9, 耐克-2)
+case(苏荷区-8, 在-3)
+nmod:assmod(聚集地-7, 曼哈顿-4)
+case(曼哈顿-4, 的-5)
+compound:nn(聚集地-7, 潮流-6)
+appos(苏荷区-8, 聚集地-7)
+nmod(苏荷区-8, 聚集地-7)
+nmod:prep(开-9, 苏荷区-8)
+aux:asp(开-9, 了-10)
+nummod(新店-13, 一-11)
+mark:clf(一-11, 家-12)
+dobj(开-9, 新店-13)
+punct(开-9, 。-14)
+
+Sentence #1 (17 tokens):
+现在梅西中国与天猫国际建立每月碰面一次的工作机制。
+[Text=现在 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NT]
+[Text=梅西 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NR]
+[Text=中国 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NR]
+[Text=与 CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=CC]
+[Text=天 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=猫 CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=NN]
+[Text=国际 CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=NN]
+[Text=建立 CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VV]
+[Text=每 CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=DT]
+[Text=月 CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=NN]
+[Text=碰面 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VV]
+[Text=一 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=CD]
+[Text=次 CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=M]
+[Text=的 CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=DEG]
+[Text=工作 CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=NN]
+[Text=机制 CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NT 现在))
+    (NP
+      (NP
+        (NP (NR 梅西))
+        (NP
+          (NP (NR 中国))
+          (CC 与)
+          (NP (NN 天) (NN 猫))))
+      (NP (NN 国际)))
+    (VP
+      (VP (VV 建立)
+        (NP
+          (DP (DT 每))
+          (NP (NN 月))))
+      (VP (VV 碰面)
+        (NP
+          (DNP
+            (QP (CD 一)
+              (CLP (M 次)))
+            (DEG 的))
+          (NP (NN 工作) (NN 机制)))))
+    (PU 。)))
+
+root(ROOT-0, 建立-8)
+nmod:tmod(建立-8, 现在-1)
+nmod:assmod(猫-6, 梅西-2)
+conj(猫-6, 中国-3)
+cc(猫-6, 与-4)
+compound:nn(猫-6, 天-5)
+compound:nn(国际-7, 猫-6)
+nsubj(建立-8, 国际-7)
+det(月-10, 每-9)
+dobj(建立-8, 月-10)
+conj(建立-8, 碰面-11)
+nummod(机制-16, 一-12)
+mark:clf(一-12, 次-13)
+case(一-12, 的-14)
+compound:nn(机制-16, 工作-15)
+dobj(碰面-11, 机制-16)
+punct(建立-8, 。-17)
+
+Sentence #1 (18 tokens):
+世界知识产权组织和康奈尔大学等机构联合发布了2017年全球创新指数报告。
+[Text=世界 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NN]
+[Text=知识 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=产权 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN]
+[Text=组织 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=和 CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=CC]
+[Text=康奈尔 CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=NR]
+[Text=大学 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=等 CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=ETC]
+[Text=机构 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=NN]
+[Text=联合 CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=AD]
+[Text=发布 CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VV]
+[Text=了 CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=AS]
+[Text=2017年 CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NT]
+[Text=全球 CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=NN]
+[Text=创新 CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=NN]
+[Text=指数 CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=NN]
+[Text=报告 CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NN 世界) (NN 知识) (NN 产权) (NN 组织))
+      (CC 和)
+      (NP
+        (NP
+          (NP (NR 康奈尔))
+          (NP (NN 大学))
+          (ETC 等))
+        (NP (NN 机构))))
+    (VP
+      (ADVP (AD 联合))
+      (VP (VV 发布) (AS 了)
+        (NP
+          (NP
+            (NP (NT 2017年))
+            (NP (NN 全球) (NN 创新) (NN 指数)))
+          (NP (NN 报告)))))
+    (PU 。)))
+
+root(ROOT-0, 发布-11)
+compound:nn(组织-4, 世界-1)
+compound:nn(组织-4, 知识-2)
+compound:nn(组织-4, 产权-3)
+conj(机构-9, 组织-4)
+cc(机构-9, 和-5)
+compound:nn(大学-7, 康奈尔-6)
+compound:nn(机构-9, 大学-7)
+etc(大学-7, 等-8)
+nsubj(发布-11, 机构-9)
+advmod(发布-11, 联合-10)
+aux:asp(发布-11, 了-12)
+compound:nn(指数-16, 2017年-13)
+compound:nn(指数-16, 全球-14)
+compound:nn(指数-16, 创新-15)
+compound:nn(报告-17, 指数-16)
+dobj(发布-11, 报告-17)
+punct(发布-11, 。-18)
+
+Sentence #1 (19 tokens):
+中国政府这几年在科技创新方面的政策和投入给我留下深刻印象。
+[Text=中国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=政府 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=这 CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=DT]
+[Text=几 CharacterOffsetBegin=5 CharacterOffsetEnd=6 PartOfSpeech=CD]
+[Text=年 CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=M]
+[Text=在 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=P]
+[Text=科技 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=NN]
+[Text=创新 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=NN]
+[Text=方面 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=的 CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DEG]
+[Text=政策 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=NN]
+[Text=和 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=CC]
+[Text=投入 CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=NN]
+[Text=给 CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=P]
+[Text=我 CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=PN]
+[Text=留下 CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=VV]
+[Text=深刻 CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=JJ]
+[Text=印象 CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP
+        (NP (NR 中国))
+        (NP (NN 政府)))
+      (DP (DT 这)
+        (QP (CD 几)
+          (CLP (M 年))))
+      (DNP
+        (PP (P 在)
+          (NP
+            (NP (NN 科技) (NN 创新))
+            (NP (NN 方面))))
+        (DEG 的))
+      (NP (NN 政策)
+        (CC 和)
+        (NN 投入)))
+    (VP
+      (PP (P 给)
+        (NP (PN 我)))
+      (VP (VV 留下)
+        (NP
+          (ADJP (JJ 深刻))
+          (NP (NN 印象)))))
+    (PU 。)))
+
+root(ROOT-0, 留下-16)
+nmod:assmod(政府-2, 中国-1)
+compound:nn(投入-13, 政府-2)
+det(投入-13, 这-3)
+dep(这-3, 几-4)
+mark:clf(几-4, 年-5)
+case(方面-9, 在-6)
+compound:nn(创新-8, 科技-7)
+compound:nn(方面-9, 创新-8)
+nmod(投入-13, 方面-9)
+case(方面-9, 的-10)
+conj(投入-13, 政策-11)
+cc(投入-13, 和-12)
+nsubj(留下-16, 投入-13)
+case(我-15, 给-14)
+nmod:prep(留下-16, 我-15)
+amod(印象-18, 深刻-17)
+dobj(留下-16, 印象-18)
+punct(留下-16, 。-19)
+
+Sentence #1 (25 tokens):
+中国在航天航空、人工智能、深海探测等方面已经取得了一批世界瞩目的重大科技创新成果。
+[Text=中国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=在 CharacterOffsetBegin=2 CharacterOffsetEnd=3 PartOfSpeech=P]
+[Text=航天 CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=JJ]
+[Text=航空 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=NN]
+[Text=、 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=PU]
+[Text=人工 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=JJ]
+[Text=智能 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=NN]
+[Text=、 CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=PU]
+[Text=深海 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=JJ]
+[Text=探测 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=NN]
+[Text=等 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=ETC]
+[Text=方面 CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=NN]
+[Text=已经 CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=AD]
+[Text=取得 CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=VV]
+[Text=了 CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=AS]
+[Text=一 CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=CD]
+[Text=批 CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=M]
+[Text=世界 CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=NN]
+[Text=瞩目 CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VV]
+[Text=的 CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=DEC]
+[Text=重大 CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=JJ]
+[Text=科技 CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=NN]
+[Text=创新 CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=NN]
+[Text=成果 CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NR 中国))
+    (VP
+      (PP (P 在)
+        (NP
+          (NP
+            (NP
+              (ADJP (JJ 航天))
+              (NP (NN 航空)))
+            (PU 、)
+            (NP
+              (ADJP (JJ 人工))
+              (NP (NN 智能)))
+            (PU 、)
+            (NP
+              (ADJP (JJ 深海))
+              (NP (NN 探测)))
+            (ETC 等))
+          (NP (NN 方面))))
+      (ADVP (AD 已经))
+      (VP (VV 取得) (AS 了)
+        (NP
+          (QP (CD 一)
+            (CLP (M 批)))
+          (CP
+            (IP
+              (NP (NN 世界))
+              (VP (VV 瞩目)))
+            (DEC 的))
+          (ADJP (JJ 重大))
+          (NP (NN 科技) (NN 创新) (NN 成果)))))
+    (PU 。)))
+
+root(ROOT-0, 取得-14)
+nsubj(取得-14, 中国-1)
+case(方面-12, 在-2)
+amod(航空-4, 航天-3)
+conj(探测-10, 航空-4)
+punct(探测-10, 、-5)
+amod(智能-7, 人工-6)
+conj(探测-10, 智能-7)
+punct(探测-10, 、-8)
+amod(探测-10, 深海-9)
+compound:nn(方面-12, 探测-10)
+etc(探测-10, 等-11)
+nmod:prep(取得-14, 方面-12)
+advmod(取得-14, 已经-13)
+aux:asp(取得-14, 了-15)
+nummod(成果-24, 一-16)
+mark:clf(一-16, 批-17)
+nsubj(瞩目-19, 世界-18)
+acl(成果-24, 瞩目-19)
+mark(瞩目-19, 的-20)
+amod(成果-24, 重大-21)
+compound:nn(成果-24, 科技-22)
+compound:nn(成果-24, 创新-23)
+dobj(取得-14, 成果-24)
+punct(取得-14, 。-25)
+
+Sentence #1 (16 tokens):
+来自中国爱尔眼科医院的医疗队为缅甸200名白内障患者实施手术。
+[Text=来自 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=VV]
+[Text=中国 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NR]
+[Text=爱尔 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NR]
+[Text=眼科 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=医院 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=NN]
+[Text=的 CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=DEG]
+[Text=医疗队 CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=为 CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=VC]
+[Text=缅甸 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=NR]
+[Text=200 CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=CD]
+[Text=名 CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=M]
+[Text=白内障 CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=NN]
+[Text=患者 CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=NN]
+[Text=实施 CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=VV]
+[Text=手术 CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (VP
+      (VP (VV 来自)
+        (NP
+          (NP (NR 中国))
+          (DNP
+            (NP
+              (NP (NR 爱尔))
+              (NP (NN 眼科) (NN 医院)))
+            (DEG 的))
+          (NP (NN 医疗队))))
+      (VP
+        (VP (VC 为)
+          (NP
+            (NP (NR 缅甸))
+            (QP (CD 200)
+              (CLP (M 名)))
+            (NP (NN 白内障) (NN 患者))))
+        (VP (VV 实施)
+          (NP (NN 手术)))))
+    (PU 。)))
+
+root(ROOT-0, 来自-1)
+nmod(医疗队-7, 中国-2)
+nmod:assmod(医院-5, 爱尔-3)
+compound:nn(医院-5, 眼科-4)
+nmod:assmod(医疗队-7, 医院-5)
+case(医院-5, 的-6)
+dobj(来自-1, 医疗队-7)
+cop(患者-13, 为-8)
+nmod(患者-13, 缅甸-9)
+nummod(患者-13, 200-10)
+mark:clf(200-10, 名-11)
+compound:nn(患者-13, 白内障-12)
+conj(来自-1, 患者-13)
+conj(患者-13, 实施-14)
+dobj(实施-14, 手术-15)
+punct(来自-1, 。-16)
+
+Sentence #1 (20 tokens):
+这一公益慈善项目还计划在菲律宾、柬埔寨、马来西亚等多个东南亚国家开展。
+[Text=这 CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=DT]
+[Text=一 CharacterOffsetBegin=1 CharacterOffsetEnd=2 PartOfSpeech=CD]
+[Text=公益 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=慈善 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=JJ]
+[Text=项目 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=还 CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=AD]
+[Text=计划 CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VV]
+[Text=在 CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=P]
+[Text=菲律宾 CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=NR]
+[Text=、 CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PU]
+[Text=柬埔寨 CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=NR]
+[Text=、 CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=PU]
+[Text=马来西亚 CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=NR]
+[Text=等 CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=ETC]
+[Text=多 CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=CD]
+[Text=个 CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=M]
+[Text=东南亚 CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=NR]
+[Text=国家 CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=NN]
+[Text=开展 CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=VV]
+[Text=。 CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP
+        (DP (DT 这)
+          (QP (CD 一)))
+        (NP (NN 公益)))
+      (ADJP (JJ 慈善))
+      (NP (NN 项目)))
+    (VP
+      (ADVP (AD 还))
+      (VP (VV 计划)
+        (IP
+          (VP
+            (PP (P 在)
+              (NP
+                (NP (NR 菲律宾) (PU 、) (NR 柬埔寨) (PU 、) (NR 马来西亚) (ETC 等))
+                (QP (CD 多)
+                  (CLP (M 个)))
+                (NP (NR 东南亚))
+                (NP (NN 国家))))
+            (VP (VV 开展))))))
+    (PU 。)))
+
+root(ROOT-0, 计划-7)
+det(公益-3, 这-1)
+dep(这-1, 一-2)
+compound:nn(项目-5, 公益-3)
+amod(项目-5, 慈善-4)
+nsubj(计划-7, 项目-5)
+nsubj:xsubj(开展-19, 项目-5)
+advmod(计划-7, 还-6)
+case(国家-18, 在-8)
+conj(马来西亚-13, 菲律宾-9)
+punct(马来西亚-13, 、-10)
+conj(马来西亚-13, 柬埔寨-11)
+punct(马来西亚-13, 、-12)
+nmod(国家-18, 马来西亚-13)
+etc(马来西亚-13, 等-14)
+nummod(国家-18, 多-15)
+mark:clf(多-15, 个-16)
+nmod:assmod(国家-18, 东南亚-17)
+nmod:prep(开展-19, 国家-18)
+ccomp(计划-7, 开展-19)
+punct(计划-7, 。-20)
+
+Sentence #1 (24 tokens):
+此次活动由中国侨联、中国驻缅甸曼德勒总领馆、第九届世界缅华同侨联谊大会组委会主办。
+[Text=此 CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=DT]
+[Text=次 CharacterOffsetBegin=1 CharacterOffsetEnd=2 PartOfSpeech=M]
+[Text=活动 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=由 CharacterOffsetBegin=4 CharacterOffsetEnd=5 PartOfSpeech=P]
+[Text=中国 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=NR]
+[Text=侨联 CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=NN]
+[Text=、 CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=PU]
+[Text=中国 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=NR]
+[Text=驻 CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=VV]
+[Text=缅甸 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=NR]
+[Text=曼德勒 CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=NR]
+[Text=总领馆 CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NN]
+[Text=、 CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=PU]
+[Text=第九 CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=OD]
+[Text=届 CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=M]
+[Text=世界 CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=NN]
+[Text=缅 CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=NR]
+[Text=华同 CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=NR]
+[Text=侨 CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=NN]
+[Text=联谊 CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=NN]
+[Text=大会 CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=NN]
+[Text=组委会 CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=NN]
+[Text=主办 CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=VV]
+[Text=。 CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (DP (DT 此)
+        (CLP (M 次)))
+      (NP (NN 活动)))
+    (VP
+      (PP (P 由)
+        (NP
+          (NP
+            (NP
+              (NP
+                (NP (NR 中国))
+                (NP (NN 侨联)))
+              (PU 、)
+              (NP
+                (IP
+                  (NP (NR 中国))
+                  (VP (VV 驻)
+                    (NP (NR 缅甸) (NR 曼德勒))))
+                (NP (NN 总领馆)))
+              (PU 、)
+              (NP
+                (QP (OD 第九)
+                  (CLP (M 届)))
+                (NP (NN 世界))
+                (NP (NR 缅) (NR 华同) (NN 侨))))
+            (NP (NN 联谊) (NN 大会)))
+          (NP (NN 组委会))))
+      (VP (VV 主办)))
+    (PU 。)))
+
+root(ROOT-0, 主办-23)
+det(活动-3, 此-1)
+mark:clf(此-1, 次-2)
+nsubj(主办-23, 活动-3)
+case(组委会-22, 由-4)
+nmod:assmod(侨联-6, 中国-5)
+conj(侨-19, 侨联-6)
+punct(侨-19, 、-7)
+nsubj(驻-9, 中国-8)
+acl(总领馆-12, 驻-9)
+name(曼德勒-11, 缅甸-10)
+dobj(驻-9, 曼德勒-11)
+conj(侨-19, 总领馆-12)
+punct(侨-19, 、-13)
+nummod(侨-19, 第九-14)
+mark:clf(第九-14, 届-15)
+compound:nn(侨-19, 世界-16)
+compound:nn(侨-19, 缅-17)
+name(侨-19, 缅-17)
+compound:nn(侨-19, 华同-18)
+compound:nn(大会-21, 侨-19)
+compound:nn(大会-21, 联谊-20)
+compound:nn(组委会-22, 大会-21)
+nmod:prep(主办-23, 组委会-22)
+punct(主办-23, 。-24)
+
+Sentence #1 (13 tokens):
+由中国企业承建的格鲁吉亚最长铁路隧道19日实现贯通。
+[Text=由 CharacterOffsetBegin=0 CharacterOffsetEnd=1 PartOfSpeech=P]
+[Text=中国 CharacterOffsetBegin=1 CharacterOffsetEnd=3 PartOfSpeech=NR]
+[Text=企业 CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=NN]
+[Text=承建 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=VV]
+[Text=的 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=DEC]
+[Text=格鲁吉亚 CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=NR]
+[Text=最长 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=铁路 CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=NN]
+[Text=隧道 CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=NN]
+[Text=19日 CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NT]
+[Text=实现 CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=VV]
+[Text=贯通 CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VV]
+[Text=。 CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (CP
+        (IP
+          (VP
+            (PP (P 由)
+              (NP
+                (NP (NR 中国))
+                (NP (NN 企业))))
+            (VP (VV 承建))))
+        (DEC 的))
+      (NP (NR 格鲁吉亚))
+      (NP (NN 最长) (NN 铁路)))
+    (NP (NN 隧道))
+    (VP
+      (NP (NT 19日))
+      (VP (VV 实现)
+        (VP (VV 贯通))))
+    (PU 。)))
+
+root(ROOT-0, 贯通-12)
+case(企业-3, 由-1)
+nmod:assmod(企业-3, 中国-2)
+nmod:prep(承建-4, 企业-3)
+acl(铁路-8, 承建-4)
+mark(承建-4, 的-5)
+nmod:assmod(铁路-8, 格鲁吉亚-6)
+compound:nn(铁路-8, 最长-7)
+nmod:topic(贯通-12, 铁路-8)
+nsubj(贯通-12, 隧道-9)
+nmod:tmod(贯通-12, 19日-10)
+xcomp(贯通-12, 实现-11)
+punct(贯通-12, 。-13)
+
+Sentence #1 (18 tokens):
+格鲁吉亚总理克维里卡什维利亲临施工现场慰问铁路建设者并出席了贯通庆祝仪式。
+[Text=格鲁吉亚 CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NR]
+[Text=总理 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN]
+[Text=克 CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=NR]
+[Text=维里 CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=NR]
+[Text=卡什维利 CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NR]
+[Text=亲临 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=VV]
+[Text=施工 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=NN]
+[Text=现场 CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=NN]
+[Text=慰问 CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VV]
+[Text=铁路 CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=NN]
+[Text=建设者 CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=NN]
+[Text=并 CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=CC]
+[Text=出席 CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=VV]
+[Text=了 CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=AS]
+[Text=贯通 CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=VV]
+[Text=庆祝 CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=NN]
+[Text=仪式 CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NR 格鲁吉亚))
+      (NP (NN 总理)))
+    (NP (NR 克) (NR 维里) (NR 卡什维利))
+    (VP
+      (VP (VV 亲临)
+        (NP (NN 施工) (NN 现场)))
+      (VP (VV 慰问)
+        (NP (NN 铁路) (NN 建设者)))
+      (CC 并)
+      (VP
+        (VRD (VV 出席) (AS 了) (VV 贯通))
+        (NP (NN 庆祝) (NN 仪式))))
+    (PU 。)))
+
+root(ROOT-0, 亲临-6)
+nmod:assmod(总理-2, 格鲁吉亚-1)
+nmod:topic(亲临-6, 总理-2)
+name(卡什维利-5, 克-3)
+name(卡什维利-5, 维里-4)
+nsubj(亲临-6, 卡什维利-5)
+compound:nn(现场-8, 施工-7)
+dobj(亲临-6, 现场-8)
+conj(亲临-6, 慰问-9)
+compound:nn(建设者-11, 铁路-10)
+dobj(慰问-9, 建设者-11)
+cc(亲临-6, 并-12)
+conj(亲临-6, 出席-13)
+advmod:rcomp(出席-13, 了-14)
+advmod:rcomp(出席-13, 贯通-15)
+compound:nn(仪式-17, 庆祝-16)
+dobj(出席-13, 仪式-17)
+punct(亲临-6, 。-18)
+
+Sentence #1 (18 tokens):
+中国中铁二十三局集团有限公司以2.67亿瑞士法郎成功中标格鲁吉亚现代化铁路项目。
+[Text=中国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=中铁 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NR]
+[Text=二十三 CharacterOffsetBegin=4 CharacterOffsetEnd=7 PartOfSpeech=OD]
+[Text=局 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=集团 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=NN]
+[Text=有限 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=JJ]
+[Text=公司 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NN]
+[Text=以 CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=P]
+[Text=2.67亿 CharacterOffsetBegin=15 CharacterOffsetEnd=20 PartOfSpeech=CD]
+[Text=瑞士 CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=NR]
+[Text=法郎 CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=M]
+[Text=成功 CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=AD]
+[Text=中标 CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=VV]
+[Text=格鲁吉亚 CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=NR]
+[Text=现代化 CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=NN]
+[Text=铁路 CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=NN]
+[Text=项目 CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=39 CharacterOffsetEnd=40 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NR 中国))
+      (NP
+        (NP
+          (NP (NR 中铁))
+          (QP (OD 二十三))
+          (NP (NN 局)))
+        (NP (NN 集团)))
+      (ADJP (JJ 有限))
+      (NP (NN 公司)))
+    (VP
+      (PP (P 以)
+        (QP (CD 2.67亿)
+          (CLP
+            (NP (NR 瑞士))
+            (CLP (M 法郎)))))
+      (ADVP (AD 成功))
+      (VP (VV 中标)
+        (NP
+          (NP (NR 格鲁吉亚))
+          (NP (NN 现代化) (NN 铁路) (NN 项目)))))
+    (PU 。)))
+
+root(ROOT-0, 中标-13)
+compound:nn(公司-7, 中国-1)
+nmod(局-4, 中铁-2)
+amod:ordmod(局-4, 二十三-3)
+compound:nn(集团-5, 局-4)
+compound:nn(公司-7, 集团-5)
+amod(公司-7, 有限-6)
+nsubj(中标-13, 公司-7)
+case(2.67亿-9, 以-8)
+nmod:prep(中标-13, 2.67亿-9)
+dep(法郎-11, 瑞士-10)
+mark:clf(2.67亿-9, 法郎-11)
+advmod(中标-13, 成功-12)
+nmod:assmod(项目-17, 格鲁吉亚-14)
+compound:nn(项目-17, 现代化-15)
+compound:nn(项目-17, 铁路-16)
+dobj(中标-13, 项目-17)
+punct(中标-13, 。-18)
+
+Sentence #1 (26 tokens):
+中国欧洲文化教育基金会在北京授予中国美术家协会分党组书记、副主席、秘书长徐里“东方艺术骑士勋章”。
+[Text=中国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=欧洲 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NR]
+[Text=文化 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN]
+[Text=教育 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=基金会 CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NN]
+[Text=在 CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=P]
+[Text=北京 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NR]
+[Text=授予 CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=VV]
+[Text=中国 CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=NR]
+[Text=美术家 CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NN]
+[Text=协会 CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=NN]
+[Text=分 CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=VV]
+[Text=党组 CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=NN]
+[Text=书记 CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=NN]
+[Text=、 CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=PU]
+[Text=副主席 CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=NN]
+[Text=、 CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=PU]
+[Text=秘书长 CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=NN]
+[Text=徐里 CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=NR]
+[Text=“ CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=PU]
+[Text=东方 CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=NR]
+[Text=艺术 CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=NN]
+[Text=骑士 CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=NN]
+[Text=勋章 CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=NN]
+[Text=” CharacterOffsetBegin=47 CharacterOffsetEnd=48 PartOfSpeech=PU]
+[Text=。 CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NR 中国) (NR 欧洲) (NN 文化) (NN 教育) (NN 基金会))
+    (VP
+      (PP (P 在)
+        (NP (NR 北京)))
+      (VP
+        (VP (VV 授予)
+          (NP
+            (NP (NR 中国))
+            (NP (NN 美术家) (NN 协会))))
+        (VP (VV 分)
+          (NP
+            (NP
+              (NP (NN 党组) (NN 书记))
+              (PU 、)
+              (NP (NN 副主席))
+              (PU 、)
+              (NP
+                (NP (NN 秘书长))
+                (NP (NR 徐里))))
+            (NP (PU “)
+              (NP (NR 东方) (NN 艺术) (NN 骑士))
+              (NP (NN 勋章))
+              (PU ”))))))
+    (PU 。)))
+
+root(ROOT-0, 授予-8)
+compound:nn(基金会-5, 中国-1)
+name(基金会-5, 中国-1)
+compound:nn(基金会-5, 欧洲-2)
+compound:nn(基金会-5, 文化-3)
+compound:nn(基金会-5, 教育-4)
+nsubj(授予-8, 基金会-5)
+case(北京-7, 在-6)
+nmod:prep(授予-8, 北京-7)
+nmod:assmod(协会-11, 中国-9)
+compound:nn(协会-11, 美术家-10)
+dobj(授予-8, 协会-11)
+conj(授予-8, 分-12)
+compound:nn(书记-14, 党组-13)
+conj(徐里-19, 书记-14)
+punct(徐里-19, 、-15)
+conj(徐里-19, 副主席-16)
+punct(徐里-19, 、-17)
+appos(徐里-19, 秘书长-18)
+compound:nn(勋章-24, 徐里-19)
+punct(勋章-24, “-20)
+compound:nn(骑士-23, 东方-21)
+compound:nn(骑士-23, 艺术-22)
+compound:nn(勋章-24, 骑士-23)
+dobj(分-12, 勋章-24)
+punct(勋章-24, ”-25)
+punct(授予-8, 。-26)
+
+Sentence #1 (19 tokens):
+印度中央污染控制委员会本周正式要求国家气象局建立一套新的预警机制。
+[Text=印度 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=中央 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=污染 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN]
+[Text=控制 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=委员会 CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NN]
+[Text=本 CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=DT]
+[Text=周 CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=M]
+[Text=正式 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=AD]
+[Text=要求 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VV]
+[Text=国家 CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=NN]
+[Text=气象局 CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=NN]
+[Text=建立 CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=VV]
+[Text=一 CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=CD]
+[Text=套 CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=M]
+[Text=新 CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=JJ]
+[Text=的 CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=DEG]
+[Text=预警 CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=NN]
+[Text=机制 CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NR 印度) (NN 中央) (NN 污染) (NN 控制) (NN 委员会))
+    (VP
+      (DP (DT 本)
+        (CLP (M 周)))
+      (ADVP (AD 正式))
+      (VP (VV 要求)
+        (NP (NN 国家) (NN 气象局))
+        (IP
+          (VP (VV 建立)
+            (NP
+              (QP (CD 一)
+                (CLP (M 套)))
+              (DNP
+                (ADJP (JJ 新))
+                (DEG 的))
+              (NP (NN 预警) (NN 机制)))))))
+    (PU 。)))
+
+root(ROOT-0, 要求-9)
+compound:nn(委员会-5, 印度-1)
+compound:nn(委员会-5, 中央-2)
+compound:nn(委员会-5, 污染-3)
+compound:nn(委员会-5, 控制-4)
+nsubj(要求-9, 委员会-5)
+dep(要求-9, 本-6)
+mark:clf(本-6, 周-7)
+advmod(要求-9, 正式-8)
+compound:nn(气象局-11, 国家-10)
+dobj(要求-9, 气象局-11)
+ccomp(要求-9, 建立-12)
+nummod(机制-18, 一-13)
+mark:clf(一-13, 套-14)
+amod(机制-18, 新-15)
+case(新-15, 的-16)
+compound:nn(机制-18, 预警-17)
+dobj(建立-12, 机制-18)
+punct(要求-9, 。-19)
+
+Sentence #1 (7 tokens):
+新德里雾霾吸引了众多关注。
+[Text=新德里 CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NR]
+[Text=雾霾 CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=NN]
+[Text=吸引 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=VV]
+[Text=了 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=AS]
+[Text=众多 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=JJ]
+[Text=关注 CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NR 新德里))
+      (NP (NN 雾霾)))
+    (VP (VV 吸引) (AS 了)
+      (NP
+        (ADJP (JJ 众多))
+        (NP (NN 关注))))
+    (PU 。)))
+
+root(ROOT-0, 吸引-3)
+nmod:assmod(雾霾-2, 新德里-1)
+nsubj(吸引-3, 雾霾-2)
+aux:asp(吸引-3, 了-4)
+amod(关注-6, 众多-5)
+dobj(吸引-3, 关注-6)
+punct(吸引-3, 。-7)
+
+Sentence #1 (16 tokens):
+英国女王伊丽莎白二世和丈夫菲利普亲王20日迎来结婚70周年纪念日。
+[Text=英国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=女王 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=伊丽莎白 CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NR]
+[Text=二 CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=OD]
+[Text=世 CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=NN]
+[Text=和 CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=CC]
+[Text=丈夫 CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=NN]
+[Text=菲利普 CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=NR]
+[Text=亲王 CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=NN]
+[Text=20日 CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NT]
+[Text=迎来 CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=VV]
+[Text=结婚 CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=NN]
+[Text=70 CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=CD]
+[Text=周年 CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=NN]
+[Text=纪念日 CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=32 CharacterOffsetEnd=33 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP
+        (NP
+          (NP
+            (NP (NR 英国))
+            (NP (NN 女王)))
+          (NP (NR 伊丽莎白))
+          (QP (OD 二))
+          (NP (NN 世)))
+        (CC 和)
+        (NP
+          (NP (NN 丈夫))
+          (NP (NR 菲利普))))
+      (NP (NN 亲王)))
+    (VP
+      (NP (NT 20日))
+      (VP (VV 迎来)
+        (NP
+          (NP
+            (NP (NN 结婚))
+            (QP (CD 70))
+            (NP (NN 周年)))
+          (NP (NN 纪念日)))))
+    (PU 。)))
+
+root(ROOT-0, 迎来-11)
+nmod:assmod(女王-2, 英国-1)
+compound:nn(世-5, 女王-2)
+nmod(世-5, 伊丽莎白-3)
+amod:ordmod(世-5, 二-4)
+conj(菲利普-8, 世-5)
+cc(菲利普-8, 和-6)
+appos(菲利普-8, 丈夫-7)
+compound:nn(亲王-9, 菲利普-8)
+nsubj(迎来-11, 亲王-9)
+nmod:tmod(迎来-11, 20日-10)
+compound:nn(周年-14, 结婚-12)
+dep(周年-14, 70-13)
+compound:nn(纪念日-15, 周年-14)
+dobj(迎来-11, 纪念日-15)
+punct(迎来-11, 。-16)
+
+Sentence #1 (9 tokens):
+女王夫妇当天不举行公众庆祝活动。
+[Text=女王 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NN]
+[Text=夫妇 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=当天 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NT]
+[Text=不 CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=AD]
+[Text=举行 CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=VV]
+[Text=公众 CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=NN]
+[Text=庆祝 CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=NN]
+[Text=活动 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NN 女王) (NN 夫妇))
+    (VP
+      (NP (NT 当天))
+      (ADVP (AD 不))
+      (VP (VV 举行)
+        (NP (NN 公众) (NN 庆祝) (NN 活动))))
+    (PU 。)))
+
+root(ROOT-0, 举行-5)
+compound:nn(夫妇-2, 女王-1)
+nsubj(举行-5, 夫妇-2)
+nmod:tmod(举行-5, 当天-3)
+neg(举行-5, 不-4)
+compound:nn(活动-8, 公众-6)
+compound:nn(活动-8, 庆祝-7)
+dobj(举行-5, 活动-8)
+punct(举行-5, 。-9)
+
+Sentence #1 (19 tokens):
+伦敦威斯敏斯特大教堂将在当天下午鸣钟3个多小时以庆祝这一盛事。
+[Text=伦敦 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=威斯敏斯特 CharacterOffsetBegin=2 CharacterOffsetEnd=7 PartOfSpeech=NR]
+[Text=大 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=JJ]
+[Text=教堂 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=NN]
+[Text=将 CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=AD]
+[Text=在 CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=P]
+[Text=当天 CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=NT]
+[Text=下午 CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=NT]
+[Text=鸣钟 CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=VV]
+[Text=3 CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=CD]
+[Text=个 CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=M]
+[Text=多 CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=AD]
+[Text=小时 CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=NN]
+[Text=以 CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=P]
+[Text=庆祝 CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=VV]
+[Text=这 CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=DT]
+[Text=一 CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=CD]
+[Text=盛事 CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NR 伦敦))
+      (NP (NR 威斯敏斯特))
+      (ADJP (JJ 大))
+      (NP (NN 教堂)))
+    (VP
+      (ADVP (AD 将))
+      (PP (P 在)
+        (NP (NT 当天) (NT 下午)))
+      (VP (VV 鸣钟)
+        (NP
+          (QP
+            (QP (CD 3)
+              (CLP (M 个)))
+            (ADVP (AD 多)))
+          (NP (NN 小时)))
+        (PP (P 以)
+          (IP
+            (VP (VV 庆祝)
+              (NP
+                (DP (DT 这)
+                  (QP (CD 一)))
+                (NP (NN 盛事))))))))
+    (PU 。)))
+
+root(ROOT-0, 鸣钟-9)
+compound:nn(教堂-4, 伦敦-1)
+nmod(教堂-4, 威斯敏斯特-2)
+amod(教堂-4, 大-3)
+nsubj(鸣钟-9, 教堂-4)
+advmod(鸣钟-9, 将-5)
+case(下午-8, 在-6)
+compound:nn(下午-8, 当天-7)
+nmod:prep(鸣钟-9, 下午-8)
+nummod(小时-13, 3-10)
+mark:clf(3-10, 个-11)
+advmod(3-10, 多-12)
+dobj(鸣钟-9, 小时-13)
+case(庆祝-15, 以-14)
+nmod:prep(鸣钟-9, 庆祝-15)
+det(盛事-18, 这-16)
+dep(这-16, 一-17)
+dobj(庆祝-15, 盛事-18)
+punct(鸣钟-9, 。-19)
+
+Sentence #1 (14 tokens):
+英国皇家邮政将于纪念日当天发行一套6枚邮票。
+[Text=英国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=皇家 CharacterOffsetBegin=2 CharacterOffsetEnd=4 PartOfSpeech=NN]
+[Text=邮政 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NN]
+[Text=将 CharacterOffsetBegin=6 CharacterOffsetEnd=7 PartOfSpeech=AD]
+[Text=于 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=P]
+[Text=纪念日 CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NN]
+[Text=当天 CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=NT]
+[Text=发行 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=VV]
+[Text=一 CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=CD]
+[Text=套 CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=M]
+[Text=6 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=CD]
+[Text=枚 CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=M]
+[Text=邮票 CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP
+        (NP (NR 英国))
+        (NP (NN 皇家)))
+      (NP (NN 邮政)))
+    (VP
+      (ADVP (AD 将))
+      (PP (P 于)
+        (NP (NN 纪念日)))
+      (NP (NT 当天))
+      (VP (VV 发行)
+        (NP
+          (QP (CD 一)
+            (CLP (M 套)))
+          (QP (CD 6)
+            (CLP (M 枚)))
+          (NP (NN 邮票)))))
+    (PU 。)))
+
+root(ROOT-0, 发行-8)
+nmod:assmod(皇家-2, 英国-1)
+compound:nn(邮政-3, 皇家-2)
+nsubj(发行-8, 邮政-3)
+advmod(发行-8, 将-4)
+case(纪念日-6, 于-5)
+nmod:prep(发行-8, 纪念日-6)
+dobj(发行-8, 当天-7)
+nmod:tmod(发行-8, 当天-7)
+nummod(邮票-13, 一-9)
+mark:clf(一-9, 套-10)
+nummod(邮票-13, 6-11)
+mark:clf(6-11, 枚-12)
+dobj(发行-8, 邮票-13)
+punct(发行-8, 。-14)
+
+Sentence #1 (10 tokens):
+菲律宾等东盟国家与中国关系日益紧密。
+[Text=菲律宾 CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NR]
+[Text=等 CharacterOffsetBegin=3 CharacterOffsetEnd=4 PartOfSpeech=ETC]
+[Text=东盟 CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=NR]
+[Text=国家 CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=与 CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=P]
+[Text=中国 CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=NR]
+[Text=关系 CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=NN]
+[Text=日益 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=AD]
+[Text=紧密 CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=VA]
+[Text=。 CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP
+      (NP (NR 菲律宾) (ETC 等))
+      (NP (NR 东盟))
+      (NP (NN 国家)))
+    (VP
+      (PP (P 与)
+        (NP
+          (NP (NR 中国))
+          (NP (NN 关系))))
+      (ADVP (AD 日益))
+      (VP (VA 紧密)))
+    (PU 。)))
+
+root(ROOT-0, 紧密-9)
+compound:nn(国家-4, 菲律宾-1)
+etc(菲律宾-1, 等-2)
+dep(国家-4, 东盟-3)
+nsubj(紧密-9, 国家-4)
+case(关系-7, 与-5)
+nmod:assmod(关系-7, 中国-6)
+nmod:prep(紧密-9, 关系-7)
+advmod(紧密-9, 日益-8)
+punct(紧密-9, 。-10)
+
+Sentence #1 (9 tokens):
+中国已成为东盟最重要旅游客源地。
+[Text=中国 CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NR]
+[Text=已 CharacterOffsetBegin=2 CharacterOffsetEnd=3 PartOfSpeech=AD]
+[Text=成为 CharacterOffsetBegin=3 CharacterOffsetEnd=5 PartOfSpeech=VV]
+[Text=东盟 CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=NR]
+[Text=最 CharacterOffsetBegin=7 CharacterOffsetEnd=8 PartOfSpeech=AD]
+[Text=重要 CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=JJ]
+[Text=旅游客 CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NN]
+[Text=源地 CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=NN]
+[Text=。 CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=PU]
+(ROOT
+  (IP
+    (NP (NR 中国))
+    (VP
+      (ADVP (AD 已))
+      (VP (VV 成为)
+        (NP
+          (NP
+            (NP (NR 东盟))
+            (ADJP
+              (ADVP (AD 最))
+              (ADJP (JJ 重要)))
+            (NP (NN 旅游客)))
+          (NP (NN 源地)))))
+    (PU 。)))
+
+root(ROOT-0, 成为-3)
+nsubj(成为-3, 中国-1)
+advmod(成为-3, 已-2)
+nmod(旅游客-7, 东盟-4)
+advmod(重要-6, 最-5)
+amod(旅游客-7, 重要-6)
+compound:nn(源地-8, 旅游客-7)
+dobj(成为-3, 源地-8)
+punct(成为-3, 。-9)
+
